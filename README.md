@@ -37,11 +37,11 @@ rim for a clean first layer.
 
 ### 20 mm — single vein per leaflet
 
-| Front (what prints) | Back (what prints) |
-|---|---|
-| ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_front.png) | ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_back.png) |
+<img src="20mm/renders/coin_20mm_bead_L3b_deep_angle3d.png" alt="20mm token, angled 3D" width="420">
 
-*(3D renders of the 20 mm are baking and land shortly.)*
+| Front (what prints) | Back (what prints) | Top-down 3D | Back face 3D |
+|---|---|---|---|
+| ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_front.png) | ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_back.png) | ![](20mm/renders/coin_20mm_bead_L3b_deep_top3d.png) | ![](20mm/renders/coin_20mm_bead_L3b_deep_back3d.png) |
 
 ### 25 mm — single vein per leaflet
 
