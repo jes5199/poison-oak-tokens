@@ -20,8 +20,8 @@ in its folder reproduce the STL exactly.
 
 | Token | Design | Hole | Thickness |
 |---|---|---|---|
-| **20 mm** (`20mm/`) | No-veins: clean raised leaf silhouettes | Ø3.0 mm | 3.20 mm |
-| **25 mm** (`25mm/`) | Single-vein: one midrib stroke per leaflet | Ø3.0 mm | 3.20 mm |
+| **20 mm** (`20mm/`) | Single-vein: one midrib stroke per leaflet | Ø3.0 mm | 3.20 mm |
+| **25 mm** (`25mm/`) | The same single-vein design at 1.25× | Ø3.0 mm | 3.20 mm |
 | **40 mm** (`40mm/`) | Full veins, bold strokes, on a chunky 5.70 mm deep-relief body | Ø3.0 mm | 5.70 mm |
 
 Every token is a **bead**: a vertical through-hole sits on the stem's own
@@ -35,13 +35,13 @@ rim for a clean first layer.
 
 ## The tokens
 
-### 20 mm — no-veins silhouette
+### 20 mm — single vein per leaflet
 
-<img src="20mm/renders/coin_20mm_bead_noveins_angle3d.png" alt="20mm token, angled 3D" width="420">
+| Front (what prints) | Back (what prints) |
+|---|---|
+| ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_front.png) | ![](20mm/renders/coin_20mm_bead_L3b_deep_whatprints_back.png) |
 
-| Front (what prints) | Back (what prints) | Top-down 3D | Back face 3D |
-|---|---|---|---|
-| ![](20mm/renders/coin_20mm_bead_noveins_whatprints_front.png) | ![](20mm/renders/coin_20mm_bead_noveins_whatprints_back.png) | ![](20mm/renders/coin_20mm_bead_noveins_top3d.png) | ![](20mm/renders/coin_20mm_bead_noveins_back3d.png) |
+*(3D renders of the 20 mm are baking and land shortly.)*
 
 ### 25 mm — single vein per leaflet
 
@@ -74,7 +74,7 @@ Each size folder holds:
 To rebuild an STL from source:
 
 ```
-cd 20mm && openscad -o coin_20mm_bead_noveins.stl coin_20mm_bead_noveins.scad
+cd 20mm && openscad -o coin_20mm_bead_L3b_deep.stl coin_20mm_bead_L3b_deep.scad
 ```
 
 ## Printing
@@ -90,7 +90,8 @@ early prints:
 - **Debossed grooves are ≥ 2 extrusion lines wide.** A slicer needs roughly two
   0.4 mm lines (~0.85 mm; ≥0.62 mm workable with tuning) to form a slot with
   clean walls — thinner slots get skipped or smeared. The 40 mm token's vein
-  grooves are 0.77 mm; the 25 mm token's single midrib strokes are 0.81 mm.
+  grooves are 0.77 mm; the midrib strokes are 0.65 mm at 20 mm and 0.81 mm
+  at 25 mm.
 - **Relief depths are exact layer multiples.** Groove depth 0.80 mm and leaf
   relief +0.60 mm are whole layer counts at 0.1 mm (8 and 6 layers) — and at
   0.2 mm too, if you print coarser. (An early 0.30 mm groove printed at 0.2 mm
