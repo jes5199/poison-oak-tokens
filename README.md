@@ -5,7 +5,16 @@ leaves-of-three shape — a safe, touchable way to study the plant, given as a
 reward for learning to spot it in the field.
 
 Each token is a printable coin/bead bearing a trifoliate poison-oak leaf,
-traced from a real leaf illustration. Three final designs, each
+traced from a real leaf illustration.
+
+<p align="center">
+<img src="reference/poison-oak-photo.jpg" alt="Poison oak — real leaf photograph" height="260">
+<img src="reference/poison-oak-illustration.jpg" alt="Poison oak illustration — the origin art for the relief" height="260">
+</p>
+
+*Left: the real plant. Right: the illustration the tokens' relief was traced
+from (line art extracted by black-hat morphology, baked to grayscale
+heightmaps, embossed via OpenSCAD `surface()`).* Three final designs, each
 a self-contained OpenSCAD model: the `.scad` plus the two grayscale heightmaps
 in its folder reproduce the STL exactly.
 
@@ -23,6 +32,32 @@ it never cuts the edge ring. The **front** face is an embossed leaf medallion
 The **back** face is the same leaf engraved as line art, mirrored *and rotated*
 so the hole lands on the stem line on both faces, with a thin flat land at the
 rim for a clean first layer.
+
+## The tokens
+
+### 20 mm — no-veins silhouette
+
+<img src="20mm/renders/coin_20mm_bead_noveins_angle3d.png" alt="20mm token, angled 3D" width="420">
+
+| Front (what prints) | Back (what prints) | Top-down 3D | Back face 3D |
+|---|---|---|---|
+| ![](20mm/renders/coin_20mm_bead_noveins_whatprints_front.png) | ![](20mm/renders/coin_20mm_bead_noveins_whatprints_back.png) | ![](20mm/renders/coin_20mm_bead_noveins_top3d.png) | ![](20mm/renders/coin_20mm_bead_noveins_back3d.png) |
+
+### 25 mm — single vein per leaflet
+
+<img src="25mm/renders/coin_25mm_L3b_angle3d.png" alt="25mm token, angled 3D" width="420">
+
+| Front (what prints) | Back (what prints) | Top-down 3D | Back face 3D |
+|---|---|---|---|
+| ![](25mm/renders/coin_25mm_L3b_whatprints_front.png) | ![](25mm/renders/coin_25mm_L3b_whatprints_back.png) | ![](25mm/renders/coin_25mm_L3b_top3d.png) | ![](25mm/renders/coin_25mm_L3b_back3d.png) |
+
+### 40 mm — full veins, deep relief, 5.70 mm body
+
+| Front (what prints) | Back (what prints) |
+|---|---|
+| ![](40mm/renders/coin_40mm_stemin_thick_whatprints_front.png) | ![](40mm/renders/coin_40mm_stemin_thick_whatprints_back.png) |
+
+*(3D renders of the 40 mm are baking and land shortly.)*
 
 ## Folder contents
 
