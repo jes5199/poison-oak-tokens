@@ -79,36 +79,24 @@ cd 20mm && openscad -o coin_20mm_bead_L3b_deep.stl coin_20mm_bead_L3b_deep.scad
 
 ## Printing
 
-These were printed and validated in **PrusaSlicer with the 0.10 mm SPEED
-preset** (PLA, 0.4 mm nozzle). Print the **back face down, no supports** —
-the back's engraved line art gives a crisp flat first layer (thin grooves
-bridge cleanly), and the raised front medallion prints face-up with no
-overhangs.
+Printed in **PrusaSlicer using the 0.10 mm SPEED preset** (PLA, 0.4 mm
+nozzle). Print the **back face down, no supports** — the raised front
+medallion has no overhangs, and the back face is flat apart from its engraved
+line art.
 
-Feature sizes were chosen around real slicer behavior, learned the hard way on
-early prints:
+## Design notes
 
-- **Debossed grooves are ≥ 2 extrusion lines wide.** A slicer needs roughly two
-  0.4 mm lines (~0.85 mm; ≥0.62 mm workable with tuning) to form a slot with
-  clean walls — thinner slots get skipped or smeared. The 40 mm token's vein
-  grooves are 0.77 mm; the midrib strokes are 0.65 mm at 20 mm and 0.81 mm
-  at 25 mm.
-- **Relief depths are exact layer multiples.** Groove depth 0.80 mm and leaf
-  relief +0.60 mm are whole layer counts at 0.1 mm (8 and 6 layers) — and at
-  0.2 mm too, if you print coarser. (An early 0.30 mm groove printed at 0.2 mm
-  layers quantized to a single visible layer and vanished — depth, not width,
-  is the first thing a print loses.)
-- **Relief height does not scale with diameter.** The larger tokens scale the
-  artwork in XY only; the Z stack stays printable at any size. (The 40 mm
-  doubles the *body* to 5.70 mm with deepened relief — grooves 0.80 mm,
-  leaf +0.60 mm, border +0.80 mm — for a chunky, high-contrast coin.)
-- **The bead hole never weakens the edge:** its top edge is tangent to the
-  border ring's inner edge, so the full-height border runs unbroken between
-  hole and rim.
+Feature sizes, for reference:
 
-Optional extras, only if your top-surface art comes out soft with a different
-setup: try the Arachne perimeter generator, a 0.40–0.42 mm external perimeter
-width, slower outer perimeters, and ironing **off**.
+- Vein/midrib grooves: 0.65 mm wide on the 20 mm, 0.81 mm on the 25 mm,
+  0.77 mm on the 40 mm — all sized to span at least two 0.4 mm extrusion
+  lines. All grooves are 0.80 mm deep.
+- Relief: leaf plateau +0.60 mm, border ring +0.80 mm — exact multiples of
+  the 0.1 mm layer height.
+- The artwork scales in XY only between sizes; the relief stack stays the
+  same. The 40 mm body is doubled to 5.70 mm.
+- The bead hole's top edge is tangent to the border ring's inner edge, so the
+  border runs unbroken between hole and rim.
 
 ## License
 
