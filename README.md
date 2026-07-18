@@ -68,3 +68,7 @@ perimeter width, slower outer perimeters, and ironing **off**.
 
 ⚠️ These are tokens *about* poison oak — the plant itself is very much not
 printable-friendly. Leaves of three, let it be.
+
+## License
+
+Released under **CC0 1.0** (public domain) — see [LICENSE](LICENSE).
