@@ -1,7 +1,7 @@
 # Poison-Oak Tokens
 
 Printable coins/beads bearing a trifoliate ("leaves of three, let it be")
-poison-oak leaf, traced from a real leaf photograph. Four final designs, each
+poison-oak leaf, traced from a real leaf photograph. Three final designs, each
 a self-contained OpenSCAD model: the `.scad` plus the two grayscale heightmaps
 in its folder reproduce the STL exactly.
 
@@ -9,8 +9,7 @@ in its folder reproduce the STL exactly.
 |---|---|---|---|
 | **20 mm** (`20mm/`) | No-veins: clean raised leaf silhouettes | Ø3.0 mm | 3.20 mm |
 | **25 mm** (`25mm/`) | Single-vein: one midrib stroke per leaflet | Ø3.0 mm | 3.20 mm |
-| **40 mm** (`40mm/`) | Full veins, bold print-legible strokes | Ø3.0 mm | 2.85 mm |
-| **40 mm thick** (`40mm-thick/`) | Same full-vein art on a doubled 5.70 mm body, deeper relief — *the maker's preferred 40 mm* | Ø3.0 mm | 5.70 mm |
+| **40 mm** (`40mm/`) | Full veins, bold strokes, on a chunky 5.70 mm deep-relief body | Ø3.0 mm | 5.70 mm |
 
 Every token is a **bead**: a vertical through-hole sits on the stem's own
 implied axis (the leaf leans ~5.8° — the hole follows the stem line, not the
@@ -58,9 +57,9 @@ early prints:
   quantized to a single visible layer and vanished — depth, not width, is the
   first thing a print loses.)
 - **Relief height does not scale with diameter.** The larger tokens scale the
-  artwork in XY only; the Z stack stays printable at any size. (The 40 mm thick
-  doubles the *body* to 5.70 mm and deepens the relief — grooves 0.80 mm,
-  leaf +0.60 mm, border +0.80 mm — for a chunkier, higher-contrast coin.)
+  artwork in XY only; the Z stack stays printable at any size. (The 40 mm
+  doubles the *body* to 5.70 mm with deepened relief — grooves 0.80 mm,
+  leaf +0.60 mm, border +0.80 mm — for a chunky, high-contrast coin.)
 - **The bead hole never weakens the edge:** its top edge is tangent to the
   border ring's inner edge, so the full-height border runs unbroken between
   hole and rim.
