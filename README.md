@@ -40,7 +40,7 @@ cd 20mm && openscad -o coin_20mm_bead_noveins.stl coin_20mm_bead_noveins.scad
 
 ## Printing
 
-Designed and validated for **PLA, 0.4 mm nozzle, 0.2 mm layers** (Prusa-class
+Designed and validated for **PLA, 0.4 mm nozzle, 0.1 mm layers** (Prusa-class
 FDM). Print the **back face down, no supports** — the back's engraved line art
 gives a crisp flat first layer (thin grooves bridge cleanly), and the raised
 front medallion prints face-up with no overhangs.
@@ -53,9 +53,10 @@ early prints:
   clean walls — thinner slots get skipped or smeared. The 40 mm token's vein
   grooves are 0.77 mm; the 25 mm token's single midrib strokes are 0.81 mm.
 - **Relief depths are exact layer multiples.** Groove depth 0.80 mm and leaf
-  relief +0.60 mm are whole numbers of 0.2 mm layers. (An early 0.30 mm groove
-  quantized to a single visible layer and vanished — depth, not width, is the
-  first thing a print loses.)
+  relief +0.60 mm are whole layer counts at 0.1 mm (8 and 6 layers) — and at
+  0.2 mm too, if you print coarser. (An early 0.30 mm groove printed at 0.2 mm
+  layers quantized to a single visible layer and vanished — depth, not width,
+  is the first thing a print loses.)
 - **Relief height does not scale with diameter.** The larger tokens scale the
   artwork in XY only; the Z stack stays printable at any size. (The 40 mm
   doubles the *body* to 5.70 mm with deepened relief — grooves 0.80 mm,
@@ -64,9 +65,9 @@ early prints:
   border ring's inner edge, so the full-height border runs unbroken between
   hole and rim.
 
-If your top-surface art comes out soft, try 0.10 mm layers (or variable layer
-height near the top), the Arachne perimeter generator, a 0.40–0.42 mm external
-perimeter width, slower outer perimeters, and ironing **off**.
+If your top-surface art comes out soft, use the Arachne perimeter generator,
+a 0.40–0.42 mm external perimeter width, slower outer perimeters, and ironing
+**off**.
 
 ⚠️ These are tokens *about* poison oak — the plant itself is very much not
 printable-friendly. Leaves of three, let it be.
