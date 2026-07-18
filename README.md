@@ -1,7 +1,11 @@
 # Poison-Oak Tokens
 
-Printable coins/beads bearing a trifoliate ("leaves of three, let it be")
-poison-oak leaf, traced from a real leaf photograph. Three final designs, each
+Physical tokens to help Scouts learn to recognize poison oak by its
+leaves-of-three shape — a safe, touchable way to study the plant, given as a
+reward for learning to spot it in the field.
+
+Each token is a printable coin/bead bearing a trifoliate poison-oak leaf,
+traced from a real leaf illustration. Three final designs, each
 a self-contained OpenSCAD model: the `.scad` plus the two grayscale heightmaps
 in its folder reproduce the STL exactly.
 
@@ -68,9 +72,6 @@ early prints:
 If your top-surface art comes out soft, use the Arachne perimeter generator,
 a 0.40–0.42 mm external perimeter width, slower outer perimeters, and ironing
 **off**.
-
-⚠️ These are tokens *about* poison oak — the plant itself is very much not
-printable-friendly. Leaves of three, let it be.
 
 ## License
 
