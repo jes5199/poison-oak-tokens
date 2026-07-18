@@ -79,8 +79,8 @@ cd 20mm && openscad -o coin_20mm_bead_L3b_deep.stl coin_20mm_bead_L3b_deep.scad
 
 ## Printing
 
-Printed in **PrusaSlicer using the 0.10 mm SPEED preset** (PLA, 0.4 mm
-nozzle). Print the **back face down, no supports** — the raised front
+Printed in **PrusaSlicer using the "0.10 mm SPEED detail" preset** (PLA,
+0.4 mm nozzle). Print the **back face down, no supports** — the raised front
 medallion has no overhangs, and the back face is flat apart from its engraved
 line art.
 
