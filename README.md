@@ -79,10 +79,11 @@ cd 20mm && openscad -o coin_20mm_bead_L3b_deep.stl coin_20mm_bead_L3b_deep.scad
 
 ## Printing
 
-Designed and validated for **PLA, 0.4 mm nozzle, 0.1 mm layers** (Prusa-class
-FDM). Print the **back face down, no supports** — the back's engraved line art
-gives a crisp flat first layer (thin grooves bridge cleanly), and the raised
-front medallion prints face-up with no overhangs.
+These were printed and validated in **PrusaSlicer with the 0.10 mm SPEED
+preset** (PLA, 0.4 mm nozzle). Print the **back face down, no supports** —
+the back's engraved line art gives a crisp flat first layer (thin grooves
+bridge cleanly), and the raised front medallion prints face-up with no
+overhangs.
 
 Feature sizes were chosen around real slicer behavior, learned the hard way on
 early prints:
@@ -105,9 +106,9 @@ early prints:
   border ring's inner edge, so the full-height border runs unbroken between
   hole and rim.
 
-If your top-surface art comes out soft, use the Arachne perimeter generator,
-a 0.40–0.42 mm external perimeter width, slower outer perimeters, and ironing
-**off**.
+Optional extras, only if your top-surface art comes out soft with a different
+setup: try the Arachne perimeter generator, a 0.40–0.42 mm external perimeter
+width, slower outer perimeters, and ironing **off**.
 
 ## License
 
