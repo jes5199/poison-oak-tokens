@@ -53,11 +53,11 @@ rim for a clean first layer.
 
 ### 40 mm — full veins, deep relief, 5.70 mm body
 
-| Front (what prints) | Back (what prints) |
-|---|---|
-| ![](40mm/renders/coin_40mm_stemin_thick_whatprints_front.png) | ![](40mm/renders/coin_40mm_stemin_thick_whatprints_back.png) |
+<img src="40mm/renders/coin_40mm_stemin_thick_angle3d.png" alt="40mm token, angled 3D" width="420">
 
-*(3D renders of the 40 mm are baking and land shortly.)*
+| Front (what prints) | Back (what prints) | Top-down 3D | Back face 3D |
+|---|---|---|---|
+| ![](40mm/renders/coin_40mm_stemin_thick_whatprints_front.png) | ![](40mm/renders/coin_40mm_stemin_thick_whatprints_back.png) | ![](40mm/renders/coin_40mm_stemin_thick_top3d.png) | ![](40mm/renders/coin_40mm_stemin_thick_back3d.png) |
 
 ## Folder contents
 
